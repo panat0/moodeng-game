@@ -15,11 +15,13 @@ function App() {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}>
-        <div className="flex flex-col items-center w-full sm:w-1/2 md:w-2/4 lg:w-2/4 xl:w-2/4 ">
+        <div className="flex flex-col items-center w-full md:w-2/3 lg:w-2/4 xl:w-2/4">
           <img className="" src={moodengLogo} alt="Moodeng Logo" />
-          <Link to="/Game">
-            <img className="mt-5 transform transition duration-300 ease-in-out hover:scale-110" src={startImg} alt="Start" />
-          </Link>
+          <div class="">
+            <Link to="/Game">
+              <img className="w-2/3 md:w-1/2 lg:w-full mt-5 bounce-up-down img-hover-scale transform transition mx-auto" src={startImg} alt="Start" />
+            </Link>
+          </div>
         </div>
       </section>
     </>
