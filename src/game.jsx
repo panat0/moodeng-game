@@ -1,6 +1,6 @@
 import React from "react"
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom"
+
 //image
 import bg1 from "./image/bg1.png"
 import bana from "./image/banana.png"
