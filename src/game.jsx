@@ -40,7 +40,7 @@ function Game() {
 
   return (
     <>
-          <div className="p-16 w-screen h-full  border border-red-600 bg-[url('/src/image/bg1.png')] bg-gray-700 bg-blend-multiply bg-cover bg-center" >
+          <div className="p-16 w-screen h-full  bg-[url('/src/image/bg1.png')] bg-gray-700 bg-blend-multiply bg-cover bg-center" >
             <div className="container flex flex-col justify-center items-center mx-auto">
               <div className="">
                 <p className="text-center text-2xl text-white font-semibold">level : {level}</p>
